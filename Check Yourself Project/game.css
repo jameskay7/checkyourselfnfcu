@@ -1,0 +1,119 @@
+@import url(https://db.onlinewebfonts.com/c/2ae387e9fd826eca2b02f780e91333c7?family=AkkuratMono-Regular);
+
+
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86,165,235,0.25);
+    background-color: white;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    background-color: ghostwhite;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    animation: shadows 1.5s infinite;
+}
+
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+    font-family: 'AkkuratMono-Regular';
+}
+
+.correct {
+  background-color: #9ef01a !important;
+}
+
+.incorrect {
+  background-color: #ff0000 !important;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hud-item .hud-prefix{
+  font-family: 'AkkuratMono-Regular';
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text{
+  text-align: center;
+}
+
+#progressTxt{
+  font-family: 'AkkuratMono-Regular';
+}
+
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid hsl(198, 74%, 41%);
+  margin-top: 1.5rem;
+}
+
+#progress-bar-full{
+  height: 3.4rem;
+  background-color: rgb(77, 142, 189);
+  width: 0%;
+}
+
+
+/*Loader*/
+#loader {
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top: 1.6rem solid #56a5eb;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes shadows {
+    0% {
+      text-shadow: #48abe0 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #48abe0;
+    }
+    50% {
+      text-shadow: blueviolet 0 0 10px;
+      box-shadow: 0px 0px 20px 10px blueviolet;
+    }
+    75% {
+      text-shadow: rebeccapurple 0 0 10px;
+      box-shadow: 0px 0px 20px 10px rebeccapuprle;
+    }
+    100% {
+      text-shadow: #48abe0 0 0 10px;
+      box-shadow: 0px 0px 20px 10px #48abe0;
+    }
+  }
+

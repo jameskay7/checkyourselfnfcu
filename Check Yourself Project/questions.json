@@ -1,0 +1,138 @@
+[
+    {
+        "question": "What is the maximum amount that is released on day one from a next day item for a new member?",
+        "choice1": "$5555.00",
+        "choice2": "$5525.00",
+        "choice3": "$5255.00",
+        "choice4": "$5925.00",
+        "answer": 2
+     },
+     {
+        "question": "What items below are listed as no hold items?",
+        "choice1": "Cash",
+        "choice2": "Cashier's checks from other financial institutions.",
+        "choice3": "Any item issued by Navy Federal & Cash.",
+        "choice4":"US Postal Money Orders",
+        "answer": 3
+     },
+     {
+        "question": "What are considered non-next day items?",
+        "choice1": "All other types of checks drawn on other financial institutions and navy federal cashier's checks.",
+        "choice2": "Checks from other financial institutions and non us-postal money orders",
+        "choice3": "All other types of checks drawn on other financial institutions and government checks",
+        "choice4": "None of the above",
+        "answer": 2
+     },
+     {
+        "question": "What is the name of the form we give to members when they inquire about our check hold policy?",
+        "choice1": "Form 669: Funds Availability Schedule",
+        "choice2": "Form 668: Funds Availability Schedule",
+        "choice3": "Form 97HX: Funds Availability Schedule",
+        "choice4": "Form 62A: Funds Availability Schedule",
+        "answer": 2
+     },
+     {
+        "question": "When any funds are placed on a 5-day hold, you must: ",
+        "choice1": "Select the correct Extended Hold Reason in UAD.",
+        "choice2": "Select the correct Extended Hold Reason in Encore.",
+        "choice3": "Select the correct Extended Hold Reason in Webex.",
+        "choice4": "All of the above",
+        "answer": 2
+     },
+     {
+        "question": "Mrs. Tamara J Mckee, an 8-year member presents a check for $1453.88 from Huntington Bank, and asks to deposit it into her checking account. What hold should you put in Encore?",
+        "choice1": "No Float",
+        "choice2": "1 Day Float",
+        "choice3": "2 Day Float",
+        "choice4": "5 Day Float",
+        "answer": 3
+     },
+     {
+        "question": "Mr. Ben Gardner, a 5-year member, presents a U.S. Treasury check for $215.00 and a $400.00 business check from Bank of America, asking them to deposit them both. What hold should you put in Encore?",
+        "choice1": "No Float",
+        "choice2": "1 Day Float",
+        "choice3": "2 Day Float",
+        "choice4": "5 Day Float",
+        "answer": 2
+     },
+     {
+        "question": "Mr. Jonas Anderson, a member for one year, has presented a check from Fairwinds Credit Union for $15,000, requesting the funds to be deposited into his savings account. What hold should you put in Encore?",
+        "choice1": "No Float",
+        "choice2": "1 Day Float",
+        "choice3": "2 Day Float",
+        "choice4": "5 Day Float",
+        "answer":3
+     },
+     {
+        "question": "The funds availability policy for new members (i.e. members for less than ____ calendar days) is different from the policy for other members.",
+        "choice1": "31",
+        "choice2": "33",
+        "choice3": "40",
+        "choice4": "30",
+        "answer": 4
+     },
+     {
+        "question": "Ms. Jude Wilson, a member for 10 months, who has no past history of using her Navy Federal account has presented a check for $50,000.71. What holds & steps should you perform in Encore?",
+        "choice1": "Put No Float in Encore",
+        "choice2": "Put 1 Day Float with reason in Encore(“Your account open 30 days or less.”)",
+        "choice3": "Put 2 Day Float with reason in Encore (“Doubt of Collectibility”)",
+        "choice4": "Put 5 Day Float with reason in Encore (“Doubt of Collectibility”)",
+        "answer": 4
+     }, 
+     {
+        "question": "Which Bluezone command is supposed to be used when manually applying a 5 day hold for new members under 30 days?",
+        "choice1": "IMI2 Function in Bluezone",
+        "choice2": "LOL Function in Bluezone",
+        "choice3": "IMMP Function in Bluezone",
+        "choice4": "IMML Function in Bluezone",
+        "answer":3
+     },   
+     {
+        "question": "What is a reason why longer check delays may apply?",
+        "choice1": "A check that was deposited may not be paid",
+        "choice2": "The member deposited checks totaling more than $5,525 on any one day",
+        "choice3": "There is an emergency, such as natural disaster or failure of communications equipment ",
+        "choice4": "All of the above",
+        "answer": 4
+     },
+     {
+        "question": "Mr. Terrance Walker, a member who joined Navy Federal 25 days ago, presents 6 cashiers' checks from various other banks for $1,200.00 each and a personal check from Wells Fargo for $85.00, requesting that the funds be deposited into his checking account. What float amounts should you enter in Encore?",
+        "choice1": "No Float: $7285.00, 1 Day Float: $0.00, 2 Day Float: $0.00, 5 Day Float: $0.00",
+        "choice2": "No Float: $0.00, 1 Day Float: $5,525.00, 2 Day Float: $0.00, 5 Day Float: $1760.00",
+        "choice3": "No Float: $0.00 1 Day Float: $5555.00, 2 Day Float: $0.00, 5 Day Float: $1760.00",
+        "choice4": "None of the above",
+        "answer": 2
+     },
+     {
+        "question": "If any part of a check deposit is being put toward a loan payment or deposited to a certificate/IRA, that amount will be released...",
+        "choice1": "In 1 Business Day", 
+        "choice2": "In 2 Business Days",
+        "choice3": "Automatically by Encore",
+        "choice4": "In 5 Business Days",
+        "answer": 3
+     },
+     {
+        "question": "When the aggregate total of non-next day items is less than $1,000, the funds will be available in how many business days?",
+        "choice1": "1 Business Day",
+        "choice2": "2 Business Days",
+        "choice3": "3 Business Days",
+        "choice4": "4 Business Days", 
+        "answer": 1
+     },
+     {
+        "question": "When the aggregate total of non-next-day items equals $1,000 or more, the funds will be available after 2 business days, but Encore will release how much at branch processing to be available the next business day?",   
+        "choice1": "$252.00",
+        "choice2": "$255.00",
+        "choice3": "$225.00",
+        "choice4": "$250.00",
+        "answer": 3
+     },
+     {
+        "question": "Member presents a check and has a 'cash no check' alert on her account. Member requests to cash it right away, what steps do you take?",
+        "choice1": "Put check on a 1 Day Hold",
+        "choice2": "Cash the check and provide the funds",
+        "choice3": "Refuse the check and direct them to a manager",
+        "choice4": "Explain to the member that due to the alert on the account she is not able to negotiate the check",
+        "answer": 4
+     }
+ ]
